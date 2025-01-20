@@ -223,6 +223,7 @@
 //! [FFTW](http://www.fftw.org/). (Strictly speaking `output` does not
 //! need to be a strided slice, since it is never split into
 //! alternating elements.)
+#![no_std]
 
 //#![feature(core)]
 #![cfg_attr(all(test, feature = "unstable"), feature(test))]

@@ -1,7 +1,7 @@
-use std::cmp::Ordering;
-use std::fmt::{self, Debug};
-use std::marker;
-use std::mem;
+use core::cmp::Ordering;
+use core::fmt::{self, Debug};
+use core::marker;
+use core::mem;
 
 #[repr(C)]
 pub struct Stride<'a,T: 'a> {

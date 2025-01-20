@@ -1,6 +1,6 @@
-use std::fmt::{self, Debug};
-use std::mem;
-use std::ops::Index;
+use core::fmt::{self, Debug};
+use core::mem;
+use core::ops::Index;
 use base;
 use base::Stride as Base;
 

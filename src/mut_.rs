@@ -1,7 +1,7 @@
-use std::fmt::{self, Debug};
-use std::marker;
-use std::mem;
-use std::ops::{Index, IndexMut, Deref};
+use core::fmt::{self, Debug};
+use core::marker;
+use core::mem;
+use core::ops::{Index, IndexMut, Deref};
 use base;
 use base::Stride as Base;
 

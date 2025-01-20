@@ -1,5 +1,5 @@
 use {Stride, MutStride};
-use std::ops::{Deref, DerefMut};
+use core::ops::{Deref, DerefMut};
 
 /// Things that can be viewed as a series of equally spaced `T`s in
 /// memory.
